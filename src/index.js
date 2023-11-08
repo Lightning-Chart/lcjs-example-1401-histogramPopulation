@@ -35,7 +35,9 @@ slider.max = "2021"
 slider.value = "1950"
 slider.style.width = "98%"
 barDiv.style.textAlign = "center"
-slider.style.position = "relative"
+slider.style.position = "absolute"
+slider.style.top = "0"
+slider.style.left = "1%"
 slider.addEventListener('input', () => { 
   animationIsOn = false
   displayYear(slider.value)
