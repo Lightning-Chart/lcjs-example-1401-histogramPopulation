@@ -2,7 +2,7 @@
  * Histogram of world population by age per year.
  */
 
-const lcjs = require('@arction/lcjs')
+const lcjs = require('@lightningchart/lcjs')
 
 const { lightningChart, BarChartTypes, BarChartSorting, Themes } = lcjs
 
@@ -15,9 +15,6 @@ const barChart = lightningChart({
     })
     .setSorting(BarChartSorting.Disabled)
     .setValueLabels(undefined)
-    .setCursorResultTableFormatter((builder, category, value, bar) =>
-        builder.addRow('Age:', '', category).addRow('Population:', '', `${bar.chart.valueAxis.formatValue(value)} thousand`),
-    )
 barChart.valueAxis.setTitle('Population (thousands)')
 barChart.categoryAxis.setTitle('Age')
 
