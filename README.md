@@ -19,11 +19,12 @@ The demo can be used as an example or a seed project. Local execution requires t
 
 ## Description
 
-Example showcasing LightningChart Histogram visualization using Bar Chart.
+Example on how to display Histograms with LightningChart JS.
 
-In this example, a world population dataset is visualized. The dataset is from [United Nations](https://population.un.org/wpp/Download/Standard/CSV/) and it includes world population by age per year.
+The recommended approach is to use `ChartXY` and `RectangleSeries` features.
+This can be easily combined with complementary visualizations, such as trends lines / outliers by adding additional Line/Point series to the chart.
 
-This example includes a HTML slider input to select the year to be visualized. The chart updates automatically from these interactions. The automatic slider progression animation can be paused and replayed by pressing the space bar.
+For most up to date documentation on realizing Histogram, see [Histograms](https://lightningchart.com/js-charts/docs/features/xy/histogram/).
 
 
 ## API Links
@@ -57,10 +58,10 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[Bar Chart]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/BarChart.html
-[Bar Chart Bar]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/BarChartBar.html
-[Bar Chart Value Axis ]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/BarChartValueAxis.html
-[Bar Chart Category Axis]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/BarChartCategoryAxis.html
-[Bar Chart Types]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/variables/BarChartTypes.html
-[Bar Chart Sorting]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/variables/BarChartSorting.html
+[Bar Chart]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/BarChart.html
+[Bar Chart Bar]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/BarChartBar.html
+[Bar Chart Value Axis ]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/BarChartValueAxis.html
+[Bar Chart Category Axis]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/BarChartCategoryAxis.html
+[Bar Chart Types]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/variables/BarChartTypes.html
+[Bar Chart Sorting]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/variables/BarChartSorting.html
 

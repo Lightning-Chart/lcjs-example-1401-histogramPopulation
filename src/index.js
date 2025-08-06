@@ -12,6 +12,7 @@ const barChart = lightningChart({
     .BarChart({
         theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
         type: BarChartTypes.Vertical,
+        legend: { addEntriesAutomatically: false },
     })
     .setSorting(BarChartSorting.Disabled)
     .setValueLabels(undefined)
